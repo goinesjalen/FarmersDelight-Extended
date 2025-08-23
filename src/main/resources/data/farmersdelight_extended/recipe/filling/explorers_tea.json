@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "amount": 250,
+        "fluid": "farmersdelight_extended:explorers_tea_fluid",
+        "nbt": {}
+      }
+    ],
+    "results": [
+      {
+        "item": "farmersdelight_extended:explorers_tea"
+      }
+    ]
+  }

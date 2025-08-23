@@ -53,6 +53,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.GOLDEN_APPLE_CIDER);
                       output.accept(ModItems.BROWNIE_BATTER);
                       output.accept(ModItems.BROWNIE);
+                      output.accept(ModItems.EXPLORERS_TEA);
                     }).build());
 
     public static void register(IEventBus eventBus) {

@@ -85,4 +85,8 @@ public class ModFoodProperties {
     public static final FoodProperties BROWNIE_BATTER = new FoodProperties.Builder()
         .nutrition(2).saturationModifier(.3f)
         .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3f).build();
+    public static final FoodProperties EXPLORERS_TEA = new FoodProperties.Builder()
+        .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2400, 0), 1)
+        .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 1200, 0), 1)
+        .build();
 }
