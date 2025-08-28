@@ -1,8 +1,10 @@
 package com.eeveebeby.farmersdelight_extended;
 
 import com.eeveebeby.farmersdelight_extended.item.ModCreativeModeTabs;
+import com.eeveebeby.farmersdelight_extended.fluid.ModFluids;
 import com.eeveebeby.farmersdelight_extended.item.ModItems;
 import com.eeveebeby.farmersdelight_extended.item.ModSounds;
+import com.tterrag.registrate.Registrate;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
@@ -25,6 +27,9 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 public class FarmersDelight_Extended {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "farmersdelight_extended";
+
+    public static final Registrate REGISTRATE = Registrate.create(MOD_ID);
+
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
     // The constructor for the mod class is the first code that is run when your mod is loaded.
@@ -47,6 +52,10 @@ public class FarmersDelight_Extended {
         modEventBus.addListener(this::addCreative);
 
         ModSounds.SOUND_EVENTS.register(modEventBus);
+
+        REGISTRATE.registerEventListeners(modEventBus);
+
+        ModFluids.register(); 
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

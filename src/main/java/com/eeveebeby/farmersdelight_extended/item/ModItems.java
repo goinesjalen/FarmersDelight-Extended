@@ -1,7 +1,5 @@
 package com.eeveebeby.farmersdelight_extended.item;
 
-import java.util.Properties;
-
 import com.eeveebeby.farmersdelight_extended.FarmersDelight_Extended;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;

@@ -1,24 +1,23 @@
 {
-    "type": "create:mixing",
-    "heatRequirement": "heated",
-    "ingredients": [
-      {
-        "tag": "minecraft:sweet_berries"
-      },
-      {
-        "amount": 250,
-        "fluid": "minecraft:water",
-        "nbt": {}
-      },
-      {
-        "amount": 250,
-        "fluidTag": "forge:milk"
-      }
-    ],
-    "results": [
-      {
-        "amount": 500,
-        "fluid": "farmersdelight_extended:explorers_tea_fluid"
-      }
-    ]
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "amount": 250,
+      "fluidTag": "forge:water"
+    },
+    {
+      "amount": 250,
+      "fluidTag": "forge:milk"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "farmersdelight_extended:explorers_tea_fluid",
+      "amount": 500
+    }
+  ]
 }
