@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight_extended:rice_flour"
+    },
+    {
+      "item": "farmersdelight_extended:rice_flour"
+    },
+    {
+      "item": "farmersdelight_extended:rice_flour"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight_extended:rice_dough"
+  }
+}

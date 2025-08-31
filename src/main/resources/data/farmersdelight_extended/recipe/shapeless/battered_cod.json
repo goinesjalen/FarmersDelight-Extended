@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "c:flours/wheat"
+      "tag": "farmersdelight_extended/flour"
     },
     {
       "item": "farmersdelight:cod_slice"

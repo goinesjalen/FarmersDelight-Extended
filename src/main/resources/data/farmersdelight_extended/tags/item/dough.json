@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "farmersdelight_extended:rice_dough",
     "farmersdelight:wheat_dough",
     "create:dough"
   ]

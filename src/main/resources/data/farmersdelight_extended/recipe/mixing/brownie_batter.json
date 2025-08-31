@@ -2,7 +2,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "farmersdelight:wheat_dough"
+      "tag": "farmersdelight_extended/dough"
     },
     {
       "item": "minecraft:cocoa_beans"

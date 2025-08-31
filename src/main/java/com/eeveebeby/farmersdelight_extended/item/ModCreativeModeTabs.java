@@ -51,9 +51,11 @@ public class ModCreativeModeTabs {
 
                       // Group 4
                       output.accept(ModItems.GOLDEN_APPLE_CIDER);
-                      output.accept(ModItems.CHOCOLATE_BROWNIE);
+                      output.accept(ModItems.RICE_FLOUR);
+                      output.accept(ModItems.RICE_DOUGH);
                       output.accept(ModItems.BROWNIE_BATTER);
                       output.accept(ModItems.BROWNIE);
+                      output.accept(ModItems.CHOCOLATE_BROWNIE);
                     }).build());
 
     public static void register(IEventBus eventBus) {
